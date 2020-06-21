@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../nav.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>To-Do List</title>
+</head>
+<body>
+    <header>
+        <nav class="flex">
+            <h1 class="logo"><a href="../index.html"><img src="../image/femcode.png" alt="FemCode Africa Logo"></a></h1>
+            <ul id="names">
+                <li><a href="../Book-API/index.html">Find A Book</a></li>
+                <li><a href="../Expense-Tracker/index.html">Expense Tracker</a></li>
+                <li><a href="index.html">To-Do List</a></li>
+            </ul>
+            <ul id="icon">
+                <li><a href="../Book-API/index.html"><i class="fas fa-book-open"></i></a></li>
+                <li><a href="../Expense-Tracker/index.html"><i class="fas fa-calculator"></i></a></li>
+                <li><a href="index.html"><i class="fas fa-edit"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="title">Todo List</h1>
+		<input id="task"><button class="btn" id="add">Add</button>
+		<hr>
+		<div id="todos"></div>
+		 
+		<script src="js/todo.js"></script>
+    </main>
+    <footer id="footer">
+        <p>Adenike Salau &copy; 2020</p>
+    </footer>
+</body>
+</html>

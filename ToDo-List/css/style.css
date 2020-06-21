@@ -1,0 +1,36 @@
+html, body{
+    
+    background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://res.cloudinary.com/adenike/image/upload/v1592531472/to-do_ohwnzx.jpg") fixed center no-repeat;
+    background-size: cover;
+}
+input{
+    width: 60%;
+}
+.btn{
+    max-width: 40%;
+}
+#todos{
+    position: relative;
+    margin-top: 15px;
+    margin-left: 30px;
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 85%;    
+}
+.remove{
+    position: absolute;
+    right: 0;
+    background-color: #000066;
+    border: none;
+    padding: 10px;
+    color: white;
+}
+.remove:hover{
+    background-color: #CB021F;
+}
+
+ul li{
+    list-style-type: square;
+    margin-bottom: 20px;
+    overflow: auto;
+}

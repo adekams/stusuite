@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+html, body{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    max-width: 100%;
+    background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://res.cloudinary.com/adenike/image/upload/v1569247125/group_studying_twqewc.jpg") center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main{
+    max-width: 90%;
+    margin: 0 auto;
+}
+h1.title{
+    text-align: center;
+    margin: 40px 0;
+}
+.search{
+    text-align: center;
+}
+.search input{
+    width: 50%;
+    border: none;
+    padding: 15px 10px;
+    outline: none;
+}
+.search #btn{
+    padding:15px 20px;
+    font-weight: 600;
+}
+.books{
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20%;
+}

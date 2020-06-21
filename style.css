@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://res.cloudinary.com/adenike/image/upload/v1592703870/AUsd2g_wza7ty.jpg") fixed no-repeat;
+}
+main{ 
+    color: #fff;
+    margin-top: 100px;
+}
+.wrapper{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.wrapper p{
+    font-size: 18px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+.wrapper a{
+    color: #00B0EF;
+}
+.wrapper a:hover{
+    color: #AAADB0;
+}
+
+
+@media(min-width:768px){
+    .wrapper p{
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: 20px;
+    }
+}
