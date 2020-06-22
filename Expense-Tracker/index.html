@@ -24,7 +24,7 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main id="expense-tracker">
         <h1 class="title">Expense Tracker 1.0</h1>
         <hr>
         <h2>Total Budget : <span id="totalBudget"> 0</span></h2>
@@ -33,17 +33,17 @@
         <hr>
 
         <h2>Add Money to Budget</h2>
-        <input type="number" name="money" id="money" placeholder="add money">
-        <button class="btn" onclick="addMoney()">Add Money</button>
+        <input type="number" name="money" id="money" placeholder="add money" min="0" oninput="this.value = Math.abs(this.value)">
+        <button class="btn" id="btn" onclick="addMoney()">Add Money</button>
 
         <hr>
 
         <h2>Add Expenses:</h2>
         <input type="text" name="" id="name" placeholder="expense name">
-        <input type="number" name="" id="amount" placeholder="expense amount">
-        <button class="btn" onclick="addExpense()">Add Expense</button>
+        <input type="number" name="" id="amount" placeholder="expense amount" min="0" oninput="this.value = Math.abs(this.value)">
+        <button class="btn" id="btn" onclick="addExpense()">Add Expense</button>
 
-        <h2>Added Expenses</h2>
+        <h2 class="added-expense">Added Expenses</h2>
             
         <div id="addedExpenses">
 
